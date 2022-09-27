@@ -1,8 +1,32 @@
-/* purdue-theme.css */
 /* @theme purdue-theme */
 
 @import 'default';
 
-h1 {
-  color: red;
+
+section {
+  padding: 10px;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-size: 35px;
+  /* font-family: "Source Sans Pro"; */
+  font-family: "Lato";
+  height: 720px;
+  line-height: 1.35;
+  letter-spacing: 1.0px;
+  padding: 70px;
+  width: 1280px;
+  word-wrap: break-word;
+  --color-background: rgb(255, 255, 255);
+  --color-background-stripe: rgba(69, 90, 100, 0.1);
+  --color-foreground: #000000;
+  --color-dimmed: #6a7a7d;
+  --color-highlight: #0288d1;
+}
+
+h1{
+  color: rgb(206, 184, 136);
+}
+
+h2{
+  color: rgb(157, 150, 141);
 }
