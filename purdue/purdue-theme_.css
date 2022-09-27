@@ -1,0 +1,34 @@
+/* @theme purdue-theme_ */
+
+@import 'uncover';
+
+section {
+  padding: 10px;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-size: 35px;
+  /* font-family: "Source Sans Pro"; */
+  font-family: "Lato";
+  height: 720px;
+  line-height: 1.35;
+  letter-spacing: 1.0px;
+  padding: 70px;
+  width: 1280px;
+  word-wrap: break-word;
+  /* --color-background: rgb(243, 233, 207); */
+  --color-background: rgb(255, 255, 255);
+  --color-background-stripe: rgba(69, 90, 100, 0.1);
+  --color-foreground: #000000;
+}
+
+h1{
+  color: rgb(194, 142, 12);
+}
+
+h2{
+  color: rgb(194, 168, 112);
+}
+
+h3{
+  color: rgb(55, 58, 54);
+}

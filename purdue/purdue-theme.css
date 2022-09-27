@@ -2,7 +2,6 @@
 
 @import 'default';
 
-
 section {
   padding: 10px;
   background-color: var(--color-background);
@@ -11,10 +10,10 @@ section {
   /* font-family: "Source Sans Pro"; */
   font-family: "Lato";
   height: 720px;
+  width: 1280px;
   line-height: 1.35;
   letter-spacing: 1.0px;
   padding: 70px;
-  width: 1280px;
   word-wrap: break-word;
   --color-background: rgb(255, 255, 255);
   --color-background-stripe: rgba(69, 90, 100, 0.1);
@@ -30,3 +29,8 @@ h1{
 h2{
   color: rgb(157, 150, 141);
 }
+
+h3{
+  color: rgb(157, 150, 141);
+}
+
