@@ -1,0 +1,8 @@
+/* purdue-theme.css */
+/* @theme purdue-theme */
+
+@import 'default';
+
+h1 {
+  color: red;
+}
